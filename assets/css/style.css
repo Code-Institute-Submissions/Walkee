@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Lato&display=swap');
+
+body {
+    background-color: red;
+}
+
+/*-----------------------------colors*/
+
+
+.navbar {
+    background-color: #06ff67;
+    text-align: center;
+}
+
+/*--------general margins padding etc*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------Navbar*/
+.logo-image {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-family: "Fredoka One", cursive;
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    left: 43%;
+    
+
+
+}
+
+ .links {
+    font-family: "Fredoka One", cursive;
+}
