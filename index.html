@@ -11,15 +11,16 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm">
+<nav class="navbar navbar-expand-md">
     <a href="index.htm" class="navbar-brand">
         <img class="logo-image" src="assets/pictures/logo.png">
     </a>
+    <span class="nav-text logo-text">Walkee</span>
 
-    <button class="navbar-toggle mr-auto" type="button" data-toggle="collapse" data-target="#walkkeeNavbar" aria-controls="walkkeeNavbar" aria-expanded="false" aria-label="togglenavigation">
+    <button class="navbar-toggle mr-auto d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="togglenavigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse" id="walkkeeNavbar"> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item"><a class="nav-link links" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link links" href="#">About</a></li>
@@ -28,9 +29,8 @@
             </ul>
         </div>
 
-    <span class="nav-text logo-text ml-md-6">Walkee!</span>
-    <a href="#" class="nav-link">
-        <span class="nav-text ml-auto links">Login</span>
+    <a href="#" class="nav-link" id="login">
+        <span class="nav-text ml-auto">Login</span>
     </a>
 </nav>
 
