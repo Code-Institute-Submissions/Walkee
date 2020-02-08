@@ -19,41 +19,69 @@ body {
 
 /*-----------------------------Navbar*/
 
+.navbar-brand {
+    margin-right: 0;
+    text-align: center;
+}
+
 .logo-image {
     height: 50px;
     width: 50px;
     border: 3px solid #ffffff;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 7px;
     padding-right: 0;
 }
 
-.navbar-brand {
-    margin-right: 0;
-}
-
 .logo-text {
+    display: inline-block;
+    vertical-align: sub;
     font-family: "Fredoka One", cursive;
     color: #ffffff;
-    font-size: 1.75em;
-    margin-right: 0px;
-    border-right: 3px solid #ffffff;
-    padding-right: 10px;
+    font-size: 1.3em;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
-
+.divider {
+    height: 30px;
+    border-right: #ffffff solid 2px;
+    margin-right: 5px;
 }
  .links {
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 10px;
+    border-radius: 17%;
+    transition-property: background-color color font-weight;
+    transition-duration: 150ms;
  }
 
  .links:hover {
      background-color: #ffffff;
-     color:black;
-     border-top: #ffffff 3px solid;
+     color: #00b348;
+     font-weight: bold;
+     
+ }
+
+ .active {
+     text-decoration: underline solid #ffffff;
  }
 
  a[id="login"] {
+     font-family: "Fredoka One", cursive;
+     color: #ffffff;
+     font-size: 1em;
      border: #ffffff solid 2px;
      border-radius: 10%;
+     transition-property: background-color color font-weight;
+     transition-duration: 120ms;
  }
+
+  a[id="login"]:hover {
+      color: #00ff67;
+      background-color: #ffffff;
+      font-weight: bolder;
+  }
