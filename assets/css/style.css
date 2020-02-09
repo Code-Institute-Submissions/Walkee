@@ -11,6 +11,22 @@ body {
     background-color: #00b348;
 }
 
+footer {
+    background-color: #303030;
+}
+
+.footerheading {
+    color: #c0c0c0;
+}
+
+.footercontent {
+    color: #c0c0c0;
+}
+
+a {
+    color: inherit;    
+}
+
 /*--------general margins padding etc*/
 body {
     margin: 0;
@@ -101,4 +117,58 @@ a[id="login"]:hover {
 .dropdownbutton i {
     color: #ffffff;
     vertical-align: sub;
+}
+
+/*--------------------------------Footer*/
+
+#footercontainer {
+    height: 128px
+}
+
+.footerheading{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    margin-top: 16px;
+    text-decoration: solid #c0c0c0 underline;
+}
+
+.footercontent {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer p{
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    font-size: 0.5em;
+    line-height: 0;
+}
+
+.downloadlink{
+    color: #c0c0c0;
+    font-size: 1.7em;
+    display: inline-block;
+    padding: 5%;
+    transition: color 0.5s ease-in-out;
+}
+
+.downloadlink:hover {
+    color: #00ff67;
+}
+
+.sociallink {
+    background-color: #ffffff;
+    vertical-align: middle;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 2.5px 5px;
+    color:#00b348;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.sociallink:hover {
+    background-color: #efb274;
 }
