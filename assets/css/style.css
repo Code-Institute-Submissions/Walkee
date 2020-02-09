@@ -49,39 +49,56 @@ body {
     border-right: #ffffff solid 2px;
     margin-right: 5px;
 }
- .links {
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-item .nav-link {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-weight: 700;
-    margin-right: 10px;
-    border-radius: 17%;
+    border-radius: 0.25em;
     transition-property: background-color color font-weight;
     transition-duration: 150ms;
- }
+    text-align: center;
+}
 
- .links:hover {
-     background-color: #ffffff;
-     color: #00b348;
-     font-weight: bold;
+.nav-item .nav-link:hover {
+    background-color: #ffffff;
+    color: #00b348;
+    font-weight: bold;
+
      
- }
+}
 
- .active {
+.active-page {
      text-decoration: underline solid #ffffff;
- }
+}
 
- a[id="login"] {
-     font-family: "Fredoka One", cursive;
-     color: #ffffff;
-     font-size: 1em;
-     border: #ffffff solid 2px;
-     border-radius: 10%;
-     transition-property: background-color color font-weight;
-     transition-duration: 120ms;
- }
+a[id="login"] {
+    font-family: "Fredoka One", cursive;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0px 5px;
+    margin-left: 3px;
+    border: #ffffff solid 2px;
+    border-radius: 10%;
+    transition-property: background-color color font-weight;
+    transition-duration: 120ms;
+}
 
-  a[id="login"]:hover {
-      color: #00ff67;
-      background-color: #ffffff;
-      font-weight: bolder;
-  }
+a[id="login"]:hover {
+    color: #00ff67;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+
+.dropdownbutton {
+    padding: 1px;
+    border: 2px solid #ffffff;
+}
+
+.dropdownbutton i {
+    color: #ffffff;
+    vertical-align: sub;
+}
