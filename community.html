@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/f429103af0.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Document</title>
@@ -17,12 +19,12 @@
 
 <body>
 	<nav class="navbar navbar-expand-sm">
-		<a href="index.htm" class="navbar-brand">
+		<a href="index.html" class="navbar-brand">
 			<img class="logo-image" src="assets/images/logo.png" alt="Walkee Logo">
 			<p class="nav-text logo-text d-none d-sm-inline">Walkee</p>
 		</a>
 		<div class="divider"></div>
-		<a href="#" class="order-sm-2" id="login">
+		<a href="login.html" class="order-sm-2" id="login">
 			<span class="nav-text ml-auto">Login</span>
 		</a>
 
@@ -31,15 +33,105 @@
     </button>
 		<div class="collapse navbar-collapse" id="walkeeNavDropdown">
 			<ul class="navbar-nav mr-auto">
-				<li class="active-page nav-item links"><a class="nav-link" href="#">Home</a></li>
-				<li class="nav-item links"><a class="nav-link" href="#">About</a></li>
-				<li class="nav-item links"><a class="nav-link" href="#">Community</a></li>
-				<li class="nav-item links"><a class="nav-link" href="#">Download</a></li>
+				<li class="nav-item links"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item links"><a class="nav-link" href="about.html">About</a></li>
+				<li class="active-page nav-item links"><a class="nav-link" href="community.html">Community</a></li>
+				<li class="nav-item links"><a class="nav-link" href="download.html">Download</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	
+	<section class="community">
+        <div class="community-content">
+		    <h1 class="heading-text align-text-center">The best part of <span class="walkee">Walkee?</span></h1>
+		    <h1 class="heading-text">All our fantastic users!</h1>
+            <p class="content-text">
+                We don't have a sign-up fee with Walkee because we think everybody should be welcome.<br>
+                Thanks to our free membership, you'll have plenty of people to meet and dogs to play with.<br>
+                Walkee offers you not only some fun with friends but real health benifits to your dog too.<br>
+                If you're still unsure, just listen to some members of our community!
+            </p>
+
+
+        </div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner content-text">
+				<div class="carousel-item active">
+					<div class="d-block w-100">
+                            <div class="media row">
+                                    <img src="assets/images/schnauzer.png" class="review-pic" alt="schnauzer">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Ozzie & Sam:</h5>
+                                        Walks are 10x better now Ozzie has other dogs to play with! The exercise all the playing gives him really helps too.
+                                    </div>
+                                    <img src="assets/images/woman1.png" class="review-pic d-none d-md-inline-block" alt="lady with leaf">
+                                    <div class="media-body d-none d-md-inline-block">
+                                        <h5 class="mt-0">Rex & Charlotte:</h5>
+                                        My puppy is much better with other dogs now :)
+                                    </div>
+                            </div>    
+					</div>
+                </div>
+				<div class="carousel-item">
+					<div class="media row">
+                                 <img src="assets/images/lab.png" class="review-pic" alt="labrador">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Sandy & Jim:</h5>
+                                        Sandy never liked going for walks before. Now she know they'll be other dogs she grabs the lead herself! 
+                                    </div>
+                                    <img src="assets/images/dasch2.png" class="review-pic d-none d-md-inline-block" alt="Dachshund">
+                                    <div class="media-body d-none d-md-inline-block">
+                                        <h5 class="mt-0">Flower & Pat:</h5>
+                                        Flower has lost so much weight now she has to play fetch against 3 other dogs<br>
+                                        Thanks Walkee!
+                                    </div>
+                    </div>  
+                </div>
+				<div class="carousel-item">
+					<div class="media row">
+                            <img src="assets/images/man2.png" class="review-pic" alt="man in desert">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Charlie:</h5>
+                                        My french bulldog loves going out but it's helped me make lots of new friends too!
+                                    </div>
+                                    <img src="assets/images/dog-scarf.png" class="review-pic d-none d-md-inline-block" alt="Dog in a scarf">
+                                    <div class="media-body d-none d-md-inline-block">
+                                        <h5 class="mt-0">Frenchie & Sue:</h5>
+                                        Meeting new people has really opened up my eyes, me and Frenchie go to so many new places thanks to our friends on Walkee.
+                                    </div>
+                    </div>  
+                </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			</a>
+		</div>
+	</section>
+    <section class="online-community text-center"> 
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-text">Join our large online community</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 my-auto fb-link">
+                <h3 class="sm-heading-text">Find Friends!</h3>
+                <a href="#" target="_blank">
+					<i class="fab fa-facebook com-link  hvr-bounce-in" aria-hidden="true"></i>
+					<span class="sr-only">Facebook</span>
+				</a>
+            </div>
+            <div class="col-12 col-sm-6 insta-link">
+                <h3 class="sm-heading-text">Post your Pooch!</h3>
+                <a href="#" target="_blank">
+				    <i class="fab fa-instagram com-link  hvr-bounce-in" aria-hidden="true"></i>
+				    <span class="sr-only">Instagram</span>
+				</a>
+            </div>
+        </div>
+    </section>
+
 	<footer class="container-fluid">
 		<div id="footercontainer" class="row">
 			<div class="col-4">
@@ -50,11 +142,11 @@
 				</div>
 				<div class="row footercontainer">
 					<div class="col-12 footercontent">
-						<p><a href="#">Home</a></p>
-						<p><a href="#">About</a></p>
-						<p><a href="#">Community</a></p>
-						<p><a href="#">Download Page</a></p>
-						<p><a href="#">Login Page</a></p>
+						<p><a href="index.html">Home</a></p>
+						<p><a href="about.html">About</a></p>
+						<p><a href="community.html">Community</a></p>
+						<p><a href="download.html">Download Page</a></p>
+						<p><a href="login.html">Login Page</a></p>
 					</div>
 				</div>
 			</div>
@@ -108,4 +200,5 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 </body>
+
 </html>

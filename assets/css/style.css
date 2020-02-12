@@ -22,8 +22,20 @@ a {
     color: inherit;    
 }
 
+a:hover {
+    color: inherit;
+}
+
 .three-reasons i {
     color: #00b348;
+}
+
+.fb-link {
+    background-color: #3b5998;
+}
+
+.insta-link {
+    background-color: #d62976;
 }
 
 /*--------general margins padding etc*/
@@ -32,11 +44,21 @@ body {
     padding: 0;
 }
 
+.row {
+    margin: 0;
+}
 .heading-text {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     color:#303030;
+}
+
+.sm-heading-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+
 }
 .content-text {
     font-family: "Lato", sans-serif;
@@ -130,7 +152,6 @@ a[id="login"]:hover {
 
 #footercontainer {
     height: 128px;
-    max-width: 100%;
 }
 
 .footerheading{
@@ -253,4 +274,57 @@ div .walkee {
 
 .tr-content{
     padding: 0.5em 10px;
+}
+
+/*---------------------------------------Community*/
+.community-content {
+    padding: 2em 1em 2em 1em;
+}
+/*---------------------------------------Carousel*/
+
+.carousel-inner,
+.carousel {
+    background-color: #FFC7AA;
+    height: 300px;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.carousel-item {
+    margin-top: 75px;
+}
+
+.media-body {
+    padding: 0 1em;
+    margin: 0 1em;
+}
+
+.review-pic {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+
+
+
+.carousel-next-icon {
+    margin-top: 50%;
+}
+
+.online-community h2{
+    padding: 40px 0px;
+    margin: 0;
+}
+
+.fb-link,
+.insta-link {
+    height: 100%;
+    padding: 1em 0em;
+    color: #ffffff;
+}
+
+.com-link {
+    font-size: 3em;
+    margin-top: 0.5rem;
 }
