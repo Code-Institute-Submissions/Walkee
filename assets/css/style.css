@@ -28,10 +28,18 @@ body {
     padding: 0;
 }
 
+.heading-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.content-text {
+
+}
 /*-----------------------------Navbar*/
 
-.navbar-brand {
-    margin-right: 0;
+nav .navbar-brand {
+    margin-right: 10px;
     text-align: center;
 }
 
@@ -50,9 +58,7 @@ body {
     font-family: "Fredoka One", cursive;
     color: #ffffff;
     font-size: 1.3em;
-    margin-right: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
+
 }
 
 .divider {
@@ -116,7 +122,8 @@ a[id="login"]:hover {
 /*--------------------------------Footer*/
 
 #footercontainer {
-    height: 128px
+    height: 128px;
+    max-width: 100%;
 }
 
 .footerheading{
@@ -169,14 +176,20 @@ footer p{
 
 /*----------------------------------Hero Section*/
 
-.hero-content {
-    width: 100vw;
+.container-fluid {
+    padding: 0;
+}
+
+.hero-background {
+    width: 100%;
     height: 70vh;
     background-image: url("/assets/images/forest.png");
+    background-origin: border-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     animation: dogs 15s 5s infinite;
+    position: relative;
 }
 
 @keyframes dogs{
@@ -191,13 +204,13 @@ footer p{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.container-fluid {
-    margin: 0 auto;
-    padding-top: 300px;
+/*---------------------------------------three reasons*/
+
+.three-reasons {
+    width: 100%;
+    margin: 0;
 }
 
-.jumbotron {
-    max-width: 50%;
-    max-height: 50%;
-    margin: auto;
+.tr-content {
+    padding: 0.5em; 10px;
 }
