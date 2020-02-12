@@ -226,7 +226,7 @@ footer p{
     75% {background-image: url("/assets/images/two-dogs-walking.png");}
     100% {background-image: url("/assets/images/forest.png");}
 }
-#dampner {
+.dampner {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -336,4 +336,16 @@ div .walkee {
     width: 100%;
     padding: 0;
     margin: 0;
+    background-image: url("/assets/images/trees.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login {
+    padding-top: 1em;
+    margin: 0 auto;
+    background-color:#FFC7AA;
+    max-width: 75%;
 }
