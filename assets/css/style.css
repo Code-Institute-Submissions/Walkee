@@ -22,6 +22,10 @@ a {
     color: inherit;    
 }
 
+.three-reasons i {
+    color: #00b348;
+}
+
 /*--------general margins padding etc*/
 body {
     margin: 0;
@@ -32,10 +36,13 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    color:#303030;
 }
 .content-text {
-
+    font-family: "Lato", sans-serif;
+    color:#303030;
 }
+
 /*-----------------------------Navbar*/
 
 nav .navbar-brand {
@@ -162,7 +169,7 @@ footer p{
 .sociallink {
     background-color: #ffffff;
     vertical-align: middle;
-    font-size: 1em;
+    font-size: 0.83em;
     padding: 0.5em;
     border-radius: 50%;
     margin: 2.5px 5px;
@@ -204,13 +211,46 @@ footer p{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-/*---------------------------------------three reasons*/
+.jumbotron {
+    width: 75%;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.jumbotron h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color:#303030;
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color:#303030;
+    margin-top: 0.5em;
+}
+
+.jumbobutton {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+    background-color: #00b348;
+}
+
+div .walkee {
+    font-family: "Fredoka One", cursive;
+    font-weight: normal;
+}
+/*--------------------------------------three reasons*/
 
 .three-reasons {
+    background-color: #FFC7AA;
     width: 100%;
     margin: 0;
 }
 
-.tr-content {
-    padding: 0.5em; 10px;
+.tr-content{
+    padding: 0.5em 10px;
 }
