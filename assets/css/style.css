@@ -68,8 +68,8 @@ body {
 /*-----------------------------Navbar*/
 
 nav .navbar-brand {
-    margin-right: 10px;
     text-align: center;
+    margin: 0;
 }
 
 .logo-image {
@@ -87,6 +87,7 @@ nav .navbar-brand {
     font-family: "Fredoka One", cursive;
     color: #ffffff;
     font-size: 1.3em;
+    margin-right: 13px;
 
 }
 
@@ -151,13 +152,13 @@ a[id="login"]:hover {
 /*--------------------------------Footer*/
 
 #footercontainer {
-    height: 128px;
+    height: 125px;
 }
 
 .footerheading{
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     margin-top: 16px;
     text-decoration: solid #c0c0c0 underline;
 }
@@ -175,11 +176,15 @@ footer p{
     line-height: 0;
 }
 
+.footer-middle {
+    padding: 0;
+}
+
 .downloadlink{
     color: #c0c0c0;
-    font-size: 1.7em;
+    font-size: 1.5em;
     display: inline-block;
-    padding: 5%;
+    padding: 0px 2.5px;
     transition: color 0.5s ease-in-out;
 }
 
@@ -187,10 +192,13 @@ footer p{
     color: #00ff67;
 }
 
+.link-footer {
+    padding: 0;
+}
 .sociallink {
     background-color: #ffffff;
     vertical-align: middle;
-    font-size: 0.83em;
+    font-size: 0.7em;
     padding: 0.5em;
     border-radius: 50%;
     margin: 2.5px 5px;
@@ -230,6 +238,7 @@ footer p{
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
 }
 
 .jumbotron {
@@ -255,8 +264,8 @@ footer p{
 }
 
 .jumbobutton {
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
+    font-size: 0.7em;
+    margin-bottom: 3em;
     background-color: #00b348;
 }
 
@@ -295,7 +304,6 @@ div .walkee {
 }
 
 .media-body {
-    padding: 0 1em;
     margin: 0 1em;
 }
 
@@ -305,11 +313,6 @@ div .walkee {
     border-radius: 50%;
     margin-left: 2em;
 }
-
-.carousel-next-icon {
-    margin-top: 50%;
-}
-
 /*---------------------------online community section*/
 
 .online-community h2{
@@ -332,7 +335,7 @@ div .walkee {
 /*------------------------------Login*/
 
 .login-background {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -344,8 +347,9 @@ div .walkee {
 }
 
 .login {
-    padding-top: 1em;
-    margin: 0 auto;
+    padding: 2em, 1.5;
+    margin: auto;
     background-color:#FFC7AA;
     max-width: 75%;
+    text-align: center;
 }
