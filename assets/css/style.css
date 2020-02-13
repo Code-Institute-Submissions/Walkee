@@ -347,9 +347,71 @@ div .walkee {
 }
 
 .login {
-    padding: 2em, 1.5;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
-    background-color:#FFC7AA;
+    padding: 2em, 1.5em;
+    background-color: rgba(255, 199, 170, 0.6);
+    border-radius: 0.25rem;
     max-width: 75%;
+    height: 350px;
     text-align: center;
+}
+
+.login-heading {
+    margin: 1em 0;
+}
+
+.login input {
+    min-width: 50%;
+    max-width: 70%;
+    margin: 0.5em auto;
+    
+}
+
+.sign-in {
+    display: inline-block;
+    font-family: "Fredoka One", cursive;
+    color: #303030;
+    background-color: #00b348;
+    font-size: 1.25em;
+    margin: 5px auto;
+    border: #303030 solid 2px;
+    border-radius: 0.25rem;
+    transition-property: background-color, color border;
+    transition-duration: 120ms;
+}
+
+.sign-in:hover {
+    color: #00ff67;
+    background-color: #ffffff;
+    border: 2px #ffffff solid;
+}
+
+/*-------------------------------media queries*/
+
+@media(min-width: 992px) {
+    .login {
+    max-width: 50%;
+    }
+}
+
+/*--------------------------------Modal*/
+
+.modal-header
+.modal-body {
+    background-color: #c0c0c0;
+}
+.modal-header {
+    border: 0;
+}
+
+.modal-body{
+    padding-top: 0;
+}
+.form-group {
+    margin-top: 0.5em;
 }
