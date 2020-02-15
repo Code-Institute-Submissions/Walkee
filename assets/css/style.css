@@ -236,7 +236,7 @@ footer p{
 .hero-background {
     width: 100%;
     height: 70vh;
-    background-image: url("/assets/images/forest.png");
+    background-image: url("../images/forest.png");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-position: center;
@@ -246,10 +246,10 @@ footer p{
 }
 
 @keyframes dogs{
-    25% {background-image: url("/assets/images/hounds.png");}
-    50% {background-image: url("/assets/images/snow-dogs.png");}
-    75% {background-image: url("/assets/images/two-dogs-walking.png");}
-    100% {background-image: url("/assets/images/forest.png");}
+    25% {background-image: url("../images/hounds.png");}
+    50% {background-image: url("../images/snow-dogs.png");}
+    75% {background-image: url("../images/two-dogs-walking.png");}
+    100% {background-image: url("../images/forest.png");}
 }
 .dampner {
     width: 100%;
@@ -401,7 +401,7 @@ div .walkee {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-image: url("/assets/images/trees.png");
+    background-image: url("../images/trees.png");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-position: center;
