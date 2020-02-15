@@ -474,7 +474,7 @@ div .walkee {
 }
 
 /*(landscape) ----------- */
-@media (orientation : landscape) {
+@media(max-width: 1024px) and (orientation : landscape) {
   .download-callout {
         height: 80vw;
     }
