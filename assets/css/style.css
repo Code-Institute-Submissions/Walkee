@@ -38,6 +38,14 @@ a:hover {
     background-color: #d62976;
 }
 
+.modal {
+    background-color: rgba(0,255,103, 0.3)
+}
+
+button:focus {
+    outline-color: transparent;
+}
+
 /*--------general margins padding etc*/
 body {
     margin: 0;
@@ -63,6 +71,15 @@ body {
 .content-text {
     font-family: "Lato", sans-serif;
     color:#303030;
+}
+
+button {
+    border: none;
+}
+
+.fit-to-parent {
+    height: 100%;
+    Width: 100%
 }
 
 /*-----------------------------Navbar*/
@@ -360,8 +377,9 @@ div .walkee {
     font-size: 1.5em;
 }
 .promo-image {
-    height: 100%;
-    width: 50%;
+    height: 338px;
+    width: 300;
+    margin: 0 auto;
 }
 /*------------------------------Login*/
 
@@ -412,7 +430,7 @@ div .walkee {
     margin: 5px auto;
     border: #303030 solid 2px;
     border-radius: 0.25rem;
-    transition-property: background-color, color border;
+    transition-property: background-color color border;
     transition-duration: 120ms;
 }
 
@@ -445,8 +463,4 @@ div .walkee {
 }
 .form-group {
     margin-top: 0.5em;
-}
-
-.modal {
-    background-color: rgba(0,255,103, 0.3)
 }
