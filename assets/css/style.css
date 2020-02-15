@@ -26,8 +26,24 @@ a:hover {
     color: inherit;
 }
 
+.about-intro {
+    background-color: #FFC7AA;
+}
+
 .three-reasons i {
     color: #00b348;
+}
+
+.benifits {
+    background-color: #ffffff;
+}
+
+.f1 {
+    background-color: #00ff669c;
+}
+
+.f2 {
+    background-color: #FFC7AA;
 }
 
 .fb-link {
@@ -40,6 +56,11 @@ a:hover {
 
 .modal {
     background-color: rgba(0,255,103, 0.3)
+}
+
+.modal-header
+.modal-body {
+    background-color: #c0c0c0;
 }
 
 button:focus {
@@ -227,7 +248,7 @@ footer p{
     background-color: #00ff67;
 }
 
-/*----------------------------------Hero Section*/
+/*----------------------------------Home page*/
 
 .container-fluid {
     padding: 0;
@@ -290,7 +311,6 @@ div .walkee {
     font-family: "Fredoka One", cursive;
     font-weight: normal;
 }
-/*--------------------------------------three reasons*/
 
 .three-reasons {
     background-color: #FFC7AA;
@@ -302,12 +322,53 @@ div .walkee {
     padding: 0.5em 10px;
 }
 
-/*---------------------------------------Community*/
+/*---------------------------------------About Page*/
+
+
+.about-intro h1 {
+    font-size: 2em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.about-intro p {
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+
+.ozzy-img {
+    border-radius: 50%;
+    max-height: 200px;
+    margin-bottom: 1em;
+}
+
+.about-features .feature-text {
+    padding: 0;
+    font-size: 0.85rem;
+}
+
+.about-features h2 {
+    font-size: 1rem;
+}
+
+.about-features i {
+    font-size: 2.5em;
+}
+
+section > div > div {
+    padding-top: 1em;
+}
+
+.about-features i {
+    display: block;
+    align-self: center;
+}
+/*---------------------------------------Community Page*/
 .community-content {
     padding: 2em 1em 2em 1em;
 }
-/*---------------------------------------Carousel*/
 
+/*---------------------------------------Carousel*/
 .carousel-inner,
 .carousel {
     background-color: #FFC7AA;
@@ -331,7 +392,6 @@ div .walkee {
     margin-left: 2em;
 }
 /*---------------------------online community section*/
-
 .online-community h2{
     padding: 40px 0px;
     margin: 0;
@@ -349,8 +409,7 @@ div .walkee {
     margin-top: 0.5rem;
 }
 
-/*-----------------------------Download*/
-
+/*-----------------------------Download Page*/
 .download-callout {
     position: relative;
     width: 100%;
@@ -395,7 +454,6 @@ div .walkee {
     color: #00ff67;
 }
 /*------------------------------Login*/
-
 .login-background {
     height: 90vh;
     width: 100%;
@@ -452,8 +510,19 @@ div .walkee {
     border: 2px #ffffff solid;
 }
 
-/*-------------------------------media queries*/
+/*--------------------------------Modal*/
+.modal-header {
+    border: 0;
+}
 
+.modal-body{
+    padding-top: 0;
+}
+.form-group {
+    margin-top: 0.5em;
+}
+
+/*-------------------------------media queries*/
 @media(min-width: 992px) {
     .login {
     max-width: 50%;
@@ -483,20 +552,4 @@ div .walkee {
     width: 100%;
     height: 80vw;
     }
-}
-/*--------------------------------Modal*/
-
-.modal-header
-.modal-body {
-    background-color: #c0c0c0;
-}
-.modal-header {
-    border: 0;
-}
-
-.modal-body{
-    padding-top: 0;
-}
-.form-group {
-    margin-top: 0.5em;
 }
