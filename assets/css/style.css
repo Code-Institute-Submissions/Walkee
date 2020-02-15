@@ -122,7 +122,7 @@ a:hover {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     border-radius: 0.25em;
-    transition-property: background-color, color, font-weight;
+    transition-property: all;
     transition-duration: 150ms;
     text-align: center;
 }
@@ -241,7 +241,7 @@ footer p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: dogs 15s 5s infinite;
+    animation: dogs 25s 5s infinite;
     position: relative;
 }
 
@@ -368,7 +368,7 @@ div .walkee {
     background-color: #ffffffb0;
     border-radius: 0.25rem;
     max-width: 75%;
-    height: 300px;
+    height: 500px;
     text-align: center;
 }
 
@@ -376,10 +376,23 @@ div .walkee {
     margin: 1em auto;
     font-size: 1.5em;
 }
+
+.downloadtron p {
+    font-size: 1.25em;
+}
 .promo-image {
-    height: 338px;
-    width: 300;
-    margin: 0 auto;
+    height: 169px;
+    width: 150px;
+    margin: 25px auto;
+}
+
+.store-link {
+    font-weight: bold;
+    transition: color 250ms ease-in-out;
+}
+
+.store-link:hover {
+    color: #00ff67;
 }
 /*------------------------------Login*/
 
@@ -402,7 +415,6 @@ div .walkee {
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 2em, 1.5em;
     background-color: rgba(255, 199, 170, 0.6);
     border-radius: 0.25rem;
     max-width: 75%;
@@ -430,7 +442,7 @@ div .walkee {
     margin: 5px auto;
     border: #303030 solid 2px;
     border-radius: 0.25rem;
-    transition-property: background-color color border;
+    transition-property: background-color, color, border;
     transition-duration: 120ms;
 }
 
@@ -448,6 +460,30 @@ div .walkee {
     }
 }
 
+@media(min-width: 768px) {
+    .downloadtron {
+        max-width: 85%;
+        height: 250px;
+    }
+}
+
+@media(min-height: 1000px){
+    .download-callout {
+        height: 50vh;
+    }
+}
+
+/*(landscape) ----------- */
+@media (orientation : landscape) {
+  .download-callout {
+        height: 80vw;
+    }
+
+    .hero-background {
+    width: 100%;
+    height: 80vw;
+    }
+}
 /*--------------------------------Modal*/
 
 .modal-header
