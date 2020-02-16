@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Lato|Montserrat&display=swap');
 
 /*-----------------------------colors*/
@@ -143,8 +145,12 @@ a:hover {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     border-radius: 0.25em;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
     transition-property: all;
-    transition-duration: 150ms;
+    -webkit-transition-duration: 150ms;
+         -o-transition-duration: 150ms;
+            transition-duration: 150ms;
     text-align: center;
 }
 
@@ -157,7 +163,8 @@ a:hover {
 }
 
 .active-page {
-     text-decoration: underline solid #ffffff;
+     -webkit-text-decoration: underline solid #ffffff;
+             text-decoration: underline solid #ffffff;
 }
 
 a[id="login"] {
@@ -168,8 +175,12 @@ a[id="login"] {
     margin-left: 3px;
     border: #ffffff solid 2px;
     border-radius: 10%;
+    -webkit-transition-property: background-color, color;
+    -o-transition-property: background-color, color;
     transition-property: background-color, color;
-    transition-duration: 120ms;
+    -webkit-transition-duration: 120ms;
+         -o-transition-duration: 120ms;
+            transition-duration: 120ms;
 }
 
 a[id="login"]:hover {
@@ -198,7 +209,8 @@ a[id="login"]:hover {
     font-family: "Montserrat", sans-serif;
     font-size: 0.7em;
     margin-top: 16px;
-    text-decoration: solid #c0c0c0 underline;
+    -webkit-text-decoration: solid #c0c0c0 underline;
+            text-decoration: solid #c0c0c0 underline;
 }
 
 .footercontent {
@@ -223,6 +235,8 @@ footer p{
     font-size: 1.5em;
     display: inline-block;
     padding: 0px 2.5px;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
 }
 
@@ -241,6 +255,8 @@ footer p{
     border-radius: 50%;
     margin: 2.5px 5px;
     color:#c0c0c0;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    -o-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
 }
 
@@ -262,8 +278,16 @@ footer p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: dogs 25s 5s infinite;
+    -webkit-animation: dogs 25s 5s infinite;
+            animation: dogs 25s 5s infinite;
     position: relative;
+}
+
+@-webkit-keyframes dogs{
+    25% {background-image: url("../images/hounds.png");}
+    50% {background-image: url("../images/snowdogs.png");}
+    75% {background-image: url("../images/dogswalking.png");}
+    100% {background-image: url("../images/forest.png");}
 }
 
 @keyframes dogs{
@@ -357,7 +381,9 @@ section > div > div {
 
 .feature-icon {
     display: block;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding-left: 0;
     font-size: 2.5em;
 }
@@ -445,6 +471,8 @@ section > div > div {
 
 .store-link {
     font-weight: bold;
+    -webkit-transition: color 250ms ease-in-out;
+    -o-transition: color 250ms ease-in-out;
     transition: color 250ms ease-in-out;
 }
 
@@ -498,8 +526,12 @@ section > div > div {
     margin: 5px auto;
     border: #303030 solid 2px;
     border-radius: 0.25rem;
+    -webkit-transition-property: background-color, color, border;
+    -o-transition-property: background-color, color, border;
     transition-property: background-color, color, border;
-    transition-duration: 120ms;
+    -webkit-transition-duration: 120ms;
+         -o-transition-duration: 120ms;
+            transition-duration: 120ms;
 }
 
 .sign-in:hover {
