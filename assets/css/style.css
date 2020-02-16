@@ -69,7 +69,7 @@ button:focus {
     outline-color: transparent;
 }
 
-/*--------general margins padding etc*/
+/*--------general margins, paddings border used across website*/
 body {
     margin: 0;
     padding: 0;
@@ -78,6 +78,21 @@ body {
 .row {
     margin: 0;
 }
+
+.container-fluid {
+    padding: 0;
+}
+
+.fit-to-parent {
+    height: 100%;
+    Width: 100%
+}
+
+button {
+    border: none;
+}
+
+/*--------------------------------------Reused font presets*/
 .heading-text {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
@@ -94,15 +109,6 @@ body {
 .content-text {
     font-family: "Lato", sans-serif;
     color:#303030;
-}
-
-button {
-    border: none;
-}
-
-.fit-to-parent {
-    height: 100%;
-    Width: 100%
 }
 
 /*-----------------------------Navbar*/
@@ -266,10 +272,6 @@ footer p{
 
 /*----------------------------------Home page*/
 
-.container-fluid {
-    padding: 0;
-}
-
 .hero-background {
     width: 100%;
     height: 70vh;
@@ -392,6 +394,23 @@ section > div > div {
     padding: 2em 1em 2em 1em;
 }
 
+.online-community h2{
+    padding: 40px 0px;
+    margin: 0;
+}
+
+.fb-link,
+.insta-link {
+    height: 100%;
+    padding: 1em 0em;
+    color: #ffffff;
+}
+
+.com-link {
+    font-size: 3em;
+    margin-top: 0.5rem;
+}
+
 /*---------------------------------------Carousel*/
 .carousel-inner,
 .carousel {
@@ -414,23 +433,6 @@ section > div > div {
     width: 7em;
     border-radius: 50%;
     margin-left: 2em;
-}
-/*---------------------------online community section*/
-.online-community h2{
-    padding: 40px 0px;
-    margin: 0;
-}
-
-.fb-link,
-.insta-link {
-    height: 100%;
-    padding: 1em 0em;
-    color: #ffffff;
-}
-
-.com-link {
-    font-size: 3em;
-    margin-top: 0.5rem;
 }
 
 /*-----------------------------Download Page*/
@@ -572,7 +574,8 @@ section > div > div {
     }
 }
 
-/*(landscape) ----------- */
+/*-----------------------------code used to fix website on landscape devices
+The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/*/
 @media(max-width: 1024px) and (orientation : landscape) {
   .download-callout {
         height: 80vw;
