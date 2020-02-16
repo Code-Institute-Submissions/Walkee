@@ -36,7 +36,7 @@ a:hover {
     color: #00b348;
 }
 
-.benifits {
+.benefits {
     background-color: #ffffffdc;
 }
 
@@ -377,7 +377,7 @@ div .walkee {
     font-size: 1rem;
 }
 
-section > div > div {
+section > .benefits > div {
     padding-top: 1em;
 }
 
