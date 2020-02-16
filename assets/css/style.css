@@ -29,7 +29,7 @@ a:hover {
 }
 
 .about-intro {
-    background-color: #FFC7AA;
+    background-color: #ffb36c;
 }
 
 .three-reasons i {
@@ -37,15 +37,15 @@ a:hover {
 }
 
 .benifits {
-    background-color: #ffffff;
+    background-color: #ffffffdc;
 }
 
 .f1 {
-    background-color: #00ff669c;
+    background-color: #00b348;
 }
 
 .f2 {
-    background-color: #FFC7AA;
+    background-color: #ffb36c;
 }
 
 .fb-link {
@@ -92,7 +92,7 @@ button {
     border: none;
 }
 
-/*--------------------------------------Reused font presets*/
+/*--------------------------------------Reusable font presets*/
 .heading-text {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
@@ -308,7 +308,7 @@ footer p{
 .jumbotron {
     width: 75%;
     padding-bottom: 0;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .jumbotron h1 {
@@ -339,7 +339,7 @@ div .walkee {
 }
 
 .three-reasons {
-    background-color: #FFC7AA;
+    background-color: #ffb36c;
     width: 100%;
     margin: 0;
 }
@@ -414,7 +414,7 @@ section > div > div {
 /*---------------------------------------Carousel*/
 .carousel-inner,
 .carousel {
-    background-color: #FFC7AA;
+    background-color: #ffb36c;
     height: 300px;
     width: 100vw;
     max-width: 100%;
@@ -440,7 +440,7 @@ section > div > div {
     position: relative;
     width: 100%;
     height: 90vh;
-    background-color:#FFC7AA;
+    background-color:#ffb36c;
 }
 
 .downloadtron {
@@ -528,18 +528,16 @@ section > div > div {
     margin: 5px auto;
     border: #303030 solid 2px;
     border-radius: 0.25rem;
-    -webkit-transition-property: background-color, color, border;
-    -o-transition-property: background-color, color, border;
-    transition-property: background-color, color, border;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
     -webkit-transition-duration: 120ms;
          -o-transition-duration: 120ms;
             transition-duration: 120ms;
 }
 
 .sign-in:hover {
-    color: #00ff67;
-    background-color: #ffffff;
-    border: 2px #ffffff solid;
+    background-color: #00ff67;
 }
 
 /*--------------------------------Modal*/
