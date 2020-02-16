@@ -327,7 +327,7 @@ div .walkee {
 
 .about-intro h1 {
     font-size: 2em;
-    padding-top: 1em;
+    padding-top: 1rem;
     margin-bottom: 0.5em;
 }
 
@@ -351,17 +351,15 @@ div .walkee {
     font-size: 1rem;
 }
 
-.about-features i {
-    font-size: 2.5em;
-}
-
 section > div > div {
     padding-top: 1em;
 }
 
-.about-features i {
+.feature-icon {
     display: block;
     align-self: center;
+    padding-left: 0;
+    font-size: 2.5em;
 }
 /*---------------------------------------Community Page*/
 .community-content {
