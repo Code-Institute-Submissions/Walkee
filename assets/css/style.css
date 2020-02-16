@@ -268,8 +268,8 @@ footer p{
 
 @keyframes dogs{
     25% {background-image: url("../images/hounds.png");}
-    50% {background-image: url("../images/snow-dogs.png");}
-    75% {background-image: url("../images/two-dogs-walking.png");}
+    50% {background-image: url("../images/snowdogs.png");}
+    75% {background-image: url("../images/dogswalking.png");}
     100% {background-image: url("../images/forest.png");}
 }
 .dampner {
