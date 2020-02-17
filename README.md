@@ -8,7 +8,29 @@ http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-wa
 - One thing I would change on future releases would be the bottom margin on the download call-outt on landscape devices to make them smaller
 http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Flogin.html
 
-# Milestone Project One: Walkee website
+# Milestone Project One: Walkee
+## Table of Contents
+1. [Aim](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#aim)
+2. [UX](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#ux)
+3. [Features](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#features)
+4. [Technologies Used](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#technologies-used)
+5. [Testing](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#testing)
+6. [Deployment](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#deployment)
+7. [Credits](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#credits)
+
+---
+
+## Aim
+Walkee is an exciting new app that allows dog owners to easily meet other dog owners and arrange walks together.
+
+Most dogs are brought singularly and don't often spend much time with other members of their species.
+Whilst on walks they have the chance to meet other dogs but this isn't guaranteed and often only for a couple of minutes.
+Loneliness in dogs leads to separation anxiety, flawed socialisation and ultimately poor mental health and behaviour.
+
+Walkee aims to fix this issue by bringing dogs together for substantial amounts of time. You'll be able to improve their behavior, track physical health and hopefully make new friends too!
+
+This website aims to easily educate interested dog owners, provide ample opportunity to download the app and follow the company on social media to improve brand awareness. 
+It also acts as a login page for existing users who'd rather use the app in browser form.
 ## UX
 ## Features
 ### Existing Features
