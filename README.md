@@ -10,13 +10,13 @@ http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-wa
 
 # Milestone Project One: Walkee
 ## Table of Contents
-1. [Aim](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#aim)
-2. [UX](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#ux)
-3. [Features](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#features)
-4. [Technologies Used](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#technologies-used)
-5. [Testing](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#testing)
-6. [Deployment](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#deployment)
-7. [Credits](https://github.com/SDGreen/first-milestone-project-walkee/tree/develop#credits)
+1. [Aim](#aim)
+2. [UX](#ux)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ---
 
