@@ -113,7 +113,6 @@ Here are the user stories that shaped the design of Walkee's website:
 * [Hover.css v2](https://ianlunn.github.io/Hover/#effects) - This library was used to give button a bounce effect aimed to increase ease of use.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsivness, trialing styles and 
 ## Testing
-
 ### Responsive Design Testing
 ### Code Validation
 ### User Stories acheived
@@ -135,7 +134,7 @@ Copyright free images taken from [Needpix](https://www.needpix.com/):
 
 Copyright free images taken from [PublicDomainPicture.net](https://www.publicdomainpictures.net/en/)
 * [Two dogs walking in forest](https://www.publicdomainpictures.net/en/view-image.php?image=10244&picture=dogs-on-a-walk) (file name: dogswalking.png)
-
+* [Man Walking Dogs](https://www.publicdomainpictures.net/en/view-image.php?image=221077&picture=dog-sitter) (file name: dogsitter.jpg)
 Copyright free images taken from [Pexels](https://www.pexels.com)
 
 * [Huskies in snow](https://www.pexels.com/photo/dog-in-snow-253308/) (file name: snowdogs.png)
