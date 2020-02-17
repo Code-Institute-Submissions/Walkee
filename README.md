@@ -9,6 +9,7 @@ http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-wa
 http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Flogin.html
 
 # Walkee App Website
+Deployed site: [https://sdgreen.github.io/first-milestone-project-walkee/](https://sdgreen.github.io/first-milestone-project-walkee/)
 ## Table of Contents
 1. [Aim](#aim)
 2. [UX](#ux)
@@ -52,7 +53,7 @@ Our customer aims were alot more utilitarian:
 These helped influcnece the information achiecture of the app. There needed to be a clearly sign-posted information about how to acheieve these goals and easy infuituve naviagtion which provides positive feedback when you click on a link.
 
 ### Target Demographic
-As Walkee's target demographic is the broad Dog owners the website had to feel friendly had inclusive to everyone.
+As Walkee's target demographic is broad (general dog owners over 16) the website had to feel friendly had inclusive to everyone.
 
 This is acheived by:
 * Using a gender neutral palette that evoke the feel of autumn dog walk
@@ -60,13 +61,46 @@ This is acheived by:
 * Avoiding harsh lines where ever possible to give a friendly feel to the website
 * Picking a more fun font to represent the brand, dog walks are supposed to be enjoyed.
 ### User Stories
-Here are the user stories that helped mold the website:
+Here are the user stories that shaped the design of Walkee's website:
 * As a prosective user, I want to know more about the app so I can decided if I want it.
-* As the business owner, I want the key benifits of my app to be easily digestable, so customers don't have too much time to decide not to get the app
+* As the business owner, I want the key benifits of my app to be easily digestable, so customers don't have too much time to decide if they want to get the app.
+* As a user, I want the login to be easy to find, so it's easy to login.
+* As Walkee's owner, I want the Brand to stand out, so it imbeds easily into customers consciences.
+* As Walkee's owner, I want people to easily download the app, too increase our membership.
+* As a user, I want to find download links to be easy it find, so I can quickly download the app.#
+* As a visitor to the site, I want a sign up form, so I can create an account quickly.
 ## Features
 ### Existing Features
+* #### Responsive Navbar: 
+    This helps users to easily navigate the website and collapses on smaller devices so not too much screen real estate is used up. The nav bar isn't fixed so content is easily read, page heights kept to a minimum so the navbar is never too far away.
+* #### Clean footer with links quick links to everypage, download links and social media accounts:
+    This again makes navigation much easier within the site and provides quick links to everywhere a user might need to get too if the navbar is unseen
+* #### Call to action Jumbo-tron with responsive buttons:
+    Quickly overviews the App and provides quick links to addition information and places to download from
+* #### Responsive Copy:
+    Information expands on both the home and about page to cut text when on smaller screens & make it more digestable
+* #### Dynamic Reviews Carousel:
+    This helps maximise the positive buzz around the app, fitting more good feedback in a smaller area whilst making the website more dynamic.
+* #### Data Validating Login orm:
+    A easy and clean form which will also hides password infomation and ensures both inputs are filled
+* #### Sign-Up Modal:
+    This helps new users easily sign up without creating more pages
 
 ### Features Left to Implement
+* #### Download and Socail Media link functionality:
+    Once Walkee exists on Twitter, Facebook, Instagram, Google Play and the App Store these links would be added to their buttons
+* #### Login functionality: 
+    Currently this is just a static front-end component which can't actually log you on to the app. In future versions it would actually send you to your account page.
+* #### Account Hub:
+    The site should have an area where logged in users could use a web based version of the Walkee app.
+* #### Sign Up Functionality:
+    The sign up form is currently just a front-end component which provides no fuction. In future releases this would be able to store new user details and create an account for them.
+* #### Password Reset Button:
+    In furture releases a new button would appear after 1 unsuccessful login attempt which allows users to reset their password.
+* #### Instagram Feed on comminty page:
+    A feed from Walkee's instagram would be used to cover the background behind the link to Walkee's instagram page.
+* #### Contact Us Modal:
+    A "Contact Us" modal in the footer would provide a better user expericence, especially for people having trouble using the app.
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
@@ -79,6 +113,10 @@ Here are the user stories that helped mold the website:
 * [Hover.css v2](https://ianlunn.github.io/Hover/#effects) - This library was used to give button a bounce effect aimed to increase ease of use.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsivness, trialing styles and 
 ## Testing
+
+### Responsive Design Testing
+### Code Validation
+### User Stories acheived
 ## Deployment
 ## Credits
 ### Media
@@ -104,10 +142,10 @@ Copyright free images taken from [Pexels](https://www.pexels.com)
 
 Images provided by myself:
 
-* Schnauzer on sofa (file name: ozzy.jpg)
-* Walkee logo (file name: logo.png)
+* [Schnauzer on sofa](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/ozzy.jpg) (file name: ozzy.jpg)
+* [Walkee logo](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/logo.png) (file name: logo.png)
   * Created using [Logomakr](https://logomakr.com/)
-* Mock up of app on devices (file name: appondevice.png)
+* [Mock up of app on devices](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/appondevice.png) (file name: appondevice.png)
   * Created using [Mockuphone](mockuphone.com)
 * Favicon (file name: favicon.png)
 
