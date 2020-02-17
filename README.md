@@ -60,6 +60,9 @@ This is acheived by:
 * Avoiding harsh lines where ever possible to give a friendly feel to the website
 * Picking a more fun font to represent the brand, dog walks are supposed to be enjoyed.
 ### User Stories
+Here are the user stories that helped mold the website:
+* As a prosective user, I want to know more about the app so I can decided if I want it.
+* As the business owner, I want the key benifits of my app to be easily digestable, so customers don't have too much time to decide not to get the app
 ## Features
 ### Existing Features
 
