@@ -128,7 +128,7 @@ One problem Responsinator highlighted was the jumbotron, download call-out and l
 This was fixed by using media queries to change the container div's (not including color dampners) height from vh to vw when in landscape mode.
 
 Another issue was encountered was the login link and the collapsed menu. In the wire frames you'll notice the login button and menu navigation are switched around.
-This is because when the login link came after the div containing the ```<ul>``` containing the navbar it seems to keep getting added to the collapsed navbar content (even though it meant to be visible at all times on all devices).
+This is because when the login link came after the div containing the containing the navbar links it kept getting added to the collapsed navbar content (even though it meant to be visible at all times on all devices).
 To fix this I made sure it appeared before the collapsed navbar button in the code.
 In the end I prefered the Login link next to the logo as it makes it easier for users to quickly navigate to that page without hitting the menu and hiding content.
 
