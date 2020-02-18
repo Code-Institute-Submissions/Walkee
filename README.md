@@ -66,6 +66,7 @@ User stories have been used to shape the design of Walkee's website, below are t
 ### Wireframes
 
 Wireframes for the laptop versions of the pages can be found [Here](https://github.com/SDGreen/Walkee/blob/master/wireframes/WalkeeWireframesLaptop.pdf)
+
 Wireframes for the mobile versions of the site can be found [Here](https://github.com/SDGreen/Walkee/blob/master/Wireframes/WalkeeWireframesPhone.pdf)
 
 ## Features
