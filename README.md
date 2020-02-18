@@ -111,6 +111,14 @@ User stories have been used to shape the design of Walkee's website, below are t
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsivness, trialing styles and 
 ## Testing
 ### Responsive Design Testing
+### Browser testing
+#### On Lenovo IdeaPad S340
+* Tested on Microsoft edge (v44.18362.1.0)
+  * Found that hex colors #ffffffdc not appearing on .downloadtron and background of of .benefits div. Had to convert to rgba() format.
+* Google Chrome (v80.0.3987.100)
+  * .downloadtron was overlapping header and footer due to being 500px at smaller widths (reduced)
+* Firefox (v73.0)
+  * Same as above
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)

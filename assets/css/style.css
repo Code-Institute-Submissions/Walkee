@@ -458,7 +458,7 @@ section > .benefits > div {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 0.25rem;
     max-width: 75%;
-    height: 500px;
+    height: 475px;
     text-align: center;
 }
 
@@ -582,7 +582,11 @@ section > .benefits > div {
 The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/*/
 @media(max-width: 1024px) and (orientation : landscape) {
   .download-callout {
-        height: 80vw;
+        height: 100vw;
+    }
+
+    .downloadtron {
+        height: 450px;
     }
 
     .hero-background {
