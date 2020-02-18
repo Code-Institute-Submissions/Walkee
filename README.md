@@ -111,10 +111,20 @@ User stories have been used to shape the design of Walkee's website, below are t
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsivness, trialing styles and 
 ## Testing
 ### Responsive Design Testing
+Responsive layout was manually tested on a Galaxy S8 (chrome), iPhone 6 plus (safari) and iPad Air 2.
+A much more useful tool was [Responsinator](http://www.responsinator.com/), tested pages below:
+* [Home page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Findex.html)
+* [About page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fabout.html)
+* [Community page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fcommunity.html)
+* [Download page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fdownload.html)
+* [Login page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Flogin.html)
+
+One problem Responsinator highlighted was the jumbotron, download call-out and login box all overlapped the header and footer on devices in landscape mode.
+This was fixed by using media queries to change the container div's (not including color dampners) height from vh to vw when in landscape mode.
 ### Browser testing
 #### On Lenovo IdeaPad S340
-* Tested on Microsoft edge (v44.18362.1.0)
-  * Found that hex colors #ffffffdc not appearing on .downloadtron and background of of .benefits div. Had to convert to rgba() format.
+* Tested on Microsoft Edge (v44.18362.1.0)
+  * Found that hex colors #ffffffdc not loading on .downloadtron .benefits divs. Had to convert to rgba() format.
 * Google Chrome (v80.0.3987.100)
   * .downloadtron was overlapping header and footer due to being 500px at smaller widths (reduced)
 * Firefox (v73.0)
@@ -122,7 +132,25 @@ User stories have been used to shape the design of Walkee's website, below are t
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
-### User Stories acheived
+### User Stories tested
+#### As a prospective user, I want to know more about the app so I can decide if I want it.
+* From the index you can easily click "Find out more" but also see a quick overview of the app above the footer
+  * The button you're instantly on a page giving a complete rundown of why you need the app and how it's features
+#### As Walkee's owner, I want the key benefits of my app to be easily digestible, so customers don't have to spend much time deciding if they want the app.
+* The information scales at different breakpoints. If you're on a small screen you get just the key information needed to make a decision but on a larger screen, you get more detailed information suitable for someone with a larger viewport.
+  * Every page has download links so you don't have to click more than twice once you've decided you want the app.
+#### As a user, I want the sign-in page to be easy to find, so I can quickly log in.
+* Every page has a distinctive login link in the navbar, you're never more than two clicks away from logging in.
+#### As Walkee's owner, I want people to easily and quickly download the app, to increase our membership.
+    * As stated earlier every user is only two click away from downloading the app.
+      * As an added benefit all Walkee download links and social links hover in the distinctive brand color #00ff67, increasing brand awareness.
+#### As a user, I want the download links to be easy it find, so I can quickly download the app.
+    * It's clearly signposted where the download page is. The page has minimal media bringing you straight to the download links.
+      * Each page also includes download links in every footer in a central position
+#### As a visitor to the site, I want a minimal signup form, so I can create an account quickly.
+    * The sign-up button brings a simple and easy to use modal so you can create an account quickly
+
+As an extra detail to increase Walkee's brand awareness the palette has been picked so that Walkee's neon green the only 'unnatural' color. Every other color has been sampled from nature photography.
 ## Deployment
 ## Credits
 ### Media
