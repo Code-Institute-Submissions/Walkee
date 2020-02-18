@@ -1,5 +1,5 @@
 # Walkee App Website
-Deployed site: [https://sdgreen.github.io/first-milestone-project-walkee/](https://sdgreen.github.io/first-milestone-project-walkee/)
+Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Walkee/)
 ## Table of Contents
 1. [Aim](#aim)
 2. [UX](#ux)
@@ -113,11 +113,11 @@ User stories have been used to shape the design of Walkee's website, below are t
 ### Responsive Design Testing
 Responsive layout was manually tested on a Galaxy S8 (chrome), iPhone 6 plus (safari) and iPad Air 2.
 A much more useful tool was [Responsinator](http://www.responsinator.com/), tested pages below:
-* [Home page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Findex.html)
-* [About page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fabout.html)
-* [Community page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fcommunity.html)
-* [Download page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Fdownload.html)
-* [Login page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2Ffirst-milestone-project-walkee%2Flogin.html)
+* [Home page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FWalkee%2Findex.html)
+* [About page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FWalkee%2Fabout.html)
+* [Community page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FWalkee%2Fcommunity.html)
+* [Download page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FWalkee%2Fdownload.html)
+* [Login page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FWalkee%2Flogin.html)
 
 One problem Responsinator highlighted was the jumbotron, download call-out and login box all overlapped the header and footer on devices in landscape mode.
 This was fixed by using media queries to change the container div's (not including color dampners) height from vh to vw when in landscape mode.
@@ -155,24 +155,24 @@ As an extra detail to increase Walkee's brand awareness the palette has been pic
 The Walkee site was created using GitPod with the git stored locally before being pushed to a remote repository on GitHub
 
 Here are the steps I used to publish a live version of the site:
-1. Go to the remote repository at [https://github.com/SDGreen/first-milestone-project-walkee](https://github.com/SDGreen/first-milestone-project-walkee) hosted by GitHub
+1. Go to the remote repository at [https://github.com/SDGreen/Walkee](https://github.com/SDGreen/Walkee) hosted by GitHub
 2. Click "Settings"
 3. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
-4. The site is now published at [https://sdgreen.github.io/first-milestone-project-walkee/index.html](https://sdgreen.github.io/first-milestone-project-walkee/index.html)
+4. The site is now published at [https://sdgreen.github.io/Walkee/index.html](https://sdgreen.github.io/Walkee/index.html)
 
 ### How to run Walkee's website code locally:
-1. Go to: [https://github.com/SDGreen/first-milestone-project-walkee](https://github.com/SDGreen/first-milestone-project-walkee)
+1. Go to: [https://github.com/SDGreen/Walkee](https://github.com/SDGreen/Walkee)
 2. Click Clone or download.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click the copy to clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy to clipboard icon.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 2 (https://github.com/SDGreen/first-milestone-project-walkee.git).
+6. Type `git clone`, and then paste the URL you copied in Step 2 (https://github.com/SDGreen/Walkee.git).
 ```
-$ git clone https://github.com/SDGreen/first-milestone-project-walkee.git
+$ git clone https://github.com/SDGreen/Walkee.git
 ```
 7. Press Enter. Your local clone will be created.
 ```
-$ https://github.com/SDGreen/first-milestone-project-walkee.git
+$ https://github.com/SDGreen/Walkee.git
 > Cloning into `some-name`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -204,10 +204,10 @@ Copyright free images taken from [Pexels](https://www.pexels.com)
 
 Images provided by myself:
 
-* [Schnauzer on sofa](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/ozzy.jpg) (file name: ozzy.jpg)
-* [Walkee logo](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/logo.png) (file name: logo.png)
+* [Schnauzer on sofa](https://sdgreen.github.io/Walkee/assets/images/ozzy.jpg) (file name: ozzy.jpg)
+* [Walkee logo](https://sdgreen.github.io/Walkee/assets/images/logo.png) (file name: logo.png)
   * Created using [Logomakr](https://logomakr.com/)
-* [Mock up of app on devices](https://sdgreen.github.io/first-milestone-project-walkee/assets/images/appondevice.png) (file name: appondevice.png)
+* [Mock up of app on devices](https://sdgreen.github.io/Walkee/assets/images/appondevice.png) (file name: appondevice.png)
   * Created using [Mockuphone](mockuphone.com)
 * Favicon (file name: favicon.png)
 
