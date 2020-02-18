@@ -63,6 +63,11 @@ User stories have been used to shape the design of Walkee's website, below are t
 * As a user, I want the download links to be easy it find, so I can quickly download the app.
 * As a visitor to the site, I want a minimal sign up form, so I can create an account quickly.
 
+### Wireframes
+
+Wireframes for the laptop versions of the pages can be found [Here](https://github.com/SDGreen/Walkee/blob/master/wireframes/WalkeeWireframesLaptop.pdf)
+Wireframes for the mobile versions of the site can be found [Here](https://github.com/SDGreen/Walkee/blob/master/Wireframes/WalkeeWireframesPhone.pdf)
+
 ## Features
 ### Existing Features:
 * #### Responsive Navbar: 
@@ -129,6 +134,8 @@ This was fixed by using media queries to change the container div's (not includi
   * .downloadtron was overlapping header and footer due to being 500px at smaller widths (reduced)
 * Firefox (v73.0)
   * Same as above
+#### On MacBook problem
+* Tested on Safari (v13.0.5)
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
@@ -153,6 +160,11 @@ This was fixed by using media queries to change the container div's (not includi
 As an extra detail to increase Walkee's brand awareness the palette has been picked so that Walkee's neon green the only 'unnatural' color. Every other color has been sampled from nature photography.
 ## Deployment
 The Walkee site was created using GitPod with the git stored locally before being pushed to a remote repository on GitHub
+To move my code to the remote repository I:
+1. Saved any last changes I made to my code (ctrl s)
+2. Add these changes to the staging area using ```git add .``` from the root file
+3. Used the command ```git commit -m "last commit before deploy``` and hit enter.
+4. Then ```git push``` to send it over to the remote repository on Github
 
 Here are the steps I used to publish a live version of the site:
 1. Go to the remote repository at [https://github.com/SDGreen/Walkee](https://github.com/SDGreen/Walkee) hosted by GitHub
