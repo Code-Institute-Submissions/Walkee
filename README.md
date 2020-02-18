@@ -1,13 +1,3 @@
-prefixer used: https://autoprefixer.github.io/
-https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/
-
-http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Findex.html
-http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Fabout.html
-http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Fcommunity.html
-http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Fdownload.html
-- One thing I would change on future releases would be the bottom margin on the download call-outt on landscape devices to make them smaller
-http://www.responsinator.com/?url=sdgreen.github.io%2Ffirst-milestone-project-walkee%2Flogin.html
-
 # Walkee App Website
 Deployed site: [https://sdgreen.github.io/first-milestone-project-walkee/](https://sdgreen.github.io/first-milestone-project-walkee/)
 ## Table of Contents
@@ -32,75 +22,82 @@ Walkee aims to fix this issue by bringing dogs together for substantial amounts 
 
 This website aims to easily educate interested dog owners, provide ample opportunity to download the app and follow the company on social media to improve brand awareness. 
 It also acts as a login page for existing users who'd rather use the app in browser form.
+
 ## UX
-The design of Walkee's website stems from analysing the customer and business goals.
+The design of Walkee's website stems from analyzing the customer and business goals.
 
 As a business Walkee's aims were simple:
-* Get more downloads of the app
-* Educate propective users easily 
-* Allow existing users to log on to the platform
-* Get more brand interaction with users through social media
+* Get more downloads of the app.
+* Educate prospective users easily. 
+* Allow existing users to log on to the platform.
+* Get more brand interaction with users through social media and increase our following.
 
-This meant their always has to be a download or social link within 2 clicks maximum. Easily sign-posted information for propective users. Some form of login functionality and lots of calls to get the app or follow Walkee's social in the copy.
+This meant there should be a download or social link within 2 clicks maximum. Easily sign-posted information for prospective users. Some form of login functionality and many calls to download the app or follow Walkee's social in the copy.
 
-Looking at apps which follow in the same vein of people meeting in the physical world through online apps like [Tinder](https://tinder.com/?lang=en-GB), [Grindr](https://www.grindr.com/), [Geocaching](https://www.geocaching.com/play/mobile), [Uber](https://www.uber.com/a/join-new?utm_source=google&utm_medium=cpc-brand&utm_campaign=Search-google-brand_184_18_UK-London_d_all_acq_cpc_uk-en_Exact&adgroup_name=Pure-Brand-Misspelling&utm_term=%C3%BCber&kw=%C3%BCber&campaign_id=71700000039840326&cid=71700000039840326&adgroup_id=58700004296343639&adg_id=58700004296343639&kw_id=p35756579852&kwid=p35756579852&ad_id=321226171594&ext_id=&ran=9628064932952514583&lint_id=9045872&lphy_id=1006621&pos=1t1&dev=c&net=g&match=e&placement=&target=&gclid=Cj0KCQiAkKnyBRDwARIsALtxe7hZC-vqJ0M3a5wrei6L_GeJV9cSwGheH48uurLf7ndEasMCsR5Y0loaAjffEALw_wcB&gclsrc=aw.ds) and [Pokemon GO](https://www.pokemongo.com/en-gb/) it was clear that less infomation on the home page is more. Instead much like other websites in a B2C model there was lots of emotive pictures and calls to action which heavily infulcend walkee's design.
+Looking at other apps that rely on users phyically meeting/interacting through online platforms such as; [Tinder](https://tinder.com/?lang=en-GB), [Grindr](https://www.grindr.com/), [Geocaching](https://www.geocaching.com/play/mobile), [Uber](https://www.uber.com/a/join-new?utm_source=google&utm_medium=cpc-brand&utm_campaign=Search-google-brand_184_18_UK-London_d_all_acq_cpc_uk-en_Exact&adgroup_name=Pure-Brand-Misspelling&utm_term=%C3%BCber&kw=%C3%BCber&campaign_id=71700000039840326&cid=71700000039840326&adgroup_id=58700004296343639&adg_id=58700004296343639&kw_id=p35756579852&kwid=p35756579852&ad_id=321226171594&ext_id=&ran=9628064932952514583&lint_id=9045872&lphy_id=1006621&pos=1t1&dev=c&net=g&match=e&placement=&target=&gclid=Cj0KCQiAkKnyBRDwARIsALtxe7hZC-vqJ0M3a5wrei6L_GeJV9cSwGheH48uurLf7ndEasMCsR5Y0loaAjffEALw_wcB&gclsrc=aw.ds) and [Pokemon GO](https://www.pokemongo.com/en-gb/)
+clearly less information on the home page is effective. Much like other websites in a B2C model, there are many emotive pictures and calls to action which heavily influenced Walkee's design.
 
 Our customer aims were alot more utilitarian:
 * Download the app
 * Sign In/Sign up
 * Learn more about the app
 
-These helped influcnece the information achiecture of the app. There needed to be a clearly sign-posted information about how to acheieve these goals and easy infuituve naviagtion which provides positive feedback when you click on a link.
+These helped influence the information architecture of the app. There needs to be clearly sign-posted information about how to achieve these goals and easy intuitive navigation which provides positive feedback.
 
 ### Target Demographic
-As Walkee's target demographic is broad (general dog owners over 16) the website had to feel friendly had inclusive to everyone.
+As Walkee's target demographic is broad, dog owners over 16. As a result, the website has to feel friendly had inclusive to everyone.
 
-This is acheived by:
-* Using a gender neutral palette that evoke the feel of autumn dog walk
-* Having a very simple, almost linear website that even less tech savvy users can control
-* Avoiding harsh lines where ever possible to give a friendly feel to the website
-* Picking a more fun font to represent the brand, dog walks are supposed to be enjoyed.
+This is achieved by:
+* Using a gender-neutral palette that evokes the feel of autumnal park scenes.
+* Having a very simple, almost linear website that even less tech-savvy users can control intuitively.
+* Avoiding harsh lines where ever possible to give a friendly, soft feel to the website.
+* Picking a fun font to represent the brand, dog walks are supposed to be enjoyed.
+
 ### User Stories
-Here are the user stories that shaped the design of Walkee's website:
-* As a prosective user, I want to know more about the app so I can decided if I want it.
-* As the business owner, I want the key benifits of my app to be easily digestable, so customers don't have too much time to decide if they want to get the app.
-* As a user, I want the login to be easy to find, so it's easy to login.
+User stories have been used to shape the design of Walkee's website, below are the critical needs of the users and business owners:
+* As a prospective user, I want to know more about the app so I can decide if I want it.
+* As Walkee's owner, I want the key benefits of my app to be easily digestible, so customers don't have to spend much time deciding if they want the app.
+* As a user, I want the sign-in page to be easy to find, so I can quickly log in.
 * As Walkee's owner, I want the Brand to stand out, so it imbeds easily into customers consciences.
-* As Walkee's owner, I want people to easily download the app, too increase our membership.
-* As a user, I want to find download links to be easy it find, so I can quickly download the app.#
-* As a visitor to the site, I want a sign up form, so I can create an account quickly.
+* As Walkee's owner, I want people to easily and quickly download the app, to increase our membership.
+* As a user, I want the download links to be easy it find, so I can quickly download the app.
+* As a visitor to the site, I want a minimal sign up form, so I can create an account quickly.
+
 ## Features
-### Existing Features
+### Existing Features:
 * #### Responsive Navbar: 
-    This helps users to easily navigate the website and collapses on smaller devices so not too much screen real estate is used up. The nav bar isn't fixed so content is easily read, page heights kept to a minimum so the navbar is never too far away.
-* #### Clean footer with links quick links to everypage, download links and social media accounts:
-    This again makes navigation much easier within the site and provides quick links to everywhere a user might need to get too if the navbar is unseen
+    This helps users to easily navigate the website and collapses on smaller devices keeping screen real estate to a minimum. The navbar isn't fixed so content is easily read, page heights are kept to a small so the navbar is never too far away.
+* #### Clean footer with links to every page, download links, and social media accounts:
+    This again makes navigation much easier within the site and provides quick links to everywhere a user might need to get too if the navbar is unseen.
 * #### Call to action Jumbo-tron with responsive buttons:
-    Quickly overviews the App and provides quick links to addition information and places to download from
+    Quickly overviews the App and provides links to additional information and places to download the app.
 * #### Responsive Copy:
-    Information expands on both the home and about page to cut text when on smaller screens & make it more digestable
-* #### Dynamic Reviews Carousel:
+    Information expands on both the home and about page, giving more information when appropriate. Excess text is cut out when on smaller screens so key benefits are easily read. 
+* #### Dynamic Review Carousel:
     This helps maximise the positive buzz around the app, fitting more good feedback in a smaller area whilst making the website more dynamic.
-* #### Data Validating Login orm:
-    A easy and clean form which will also hides password infomation and ensures both inputs are filled
+* #### Data Validating Login form:
+    An easy and clean form that also keeps passwords hidden and ensures both inputs are filled before logging on.
 * #### Sign-Up Modal:
-    This helps new users easily sign up without creating more pages
+    This helps new users easily sign up on the same page. This is in keeping with convention and saves on webpages.
 
 ### Features Left to Implement
-* #### Download and Socail Media link functionality:
-    Once Walkee exists on Twitter, Facebook, Instagram, Google Play and the App Store these links would be added to their buttons
+* #### Download and Social Media link functionality:
+    Once Walkee exists on Twitter, Facebook, Instagram, Google Play and the App Store these links would direct the user to these external pages (via a new tab).
+* #### Google Play and Apple badges:
+    Once Walkee exists on Google Play and the App Store the site will be eligible to use the official badges, providing a more professional look. 
 * #### Login functionality: 
-    Currently this is just a static front-end component which can't actually log you on to the app. In future versions it would actually send you to your account page.
+    Currently this is just a static front-end component which can't actually log you on to the app. In future versions it would send you to your account page.
 * #### Account Hub:
-    The site should have an area where logged in users could use a web based version of the Walkee app.
+    The site should have an area where logged-in users can use a web-based version of the Walkee app.
 * #### Sign Up Functionality:
-    The sign up form is currently just a front-end component which provides no fuction. In future releases this would be able to store new user details and create an account for them.
+    The signup form is currently just a front-end component that provides no function. In future releases, this would be able to store new user details and create accounts for them.
 * #### Password Reset Button:
-    In furture releases a new button would appear after 1 unsuccessful login attempt which allows users to reset their password.
-* #### Instagram Feed on comminty page:
-    A feed from Walkee's instagram would be used to cover the background behind the link to Walkee's instagram page.
+    In future releases a new button would appear after 1 unsuccessful login attempt which allows users to reset their password.
+* #### Instagram Feed on community page:
+    A feed from Walkee's Instagram account would be used to cover the background behind the link to Walkee's Instagram page giving the page a more dynamic feel.
 * #### Contact Us Modal:
-    A "Contact Us" modal in the footer would provide a better user expericence, especially for people having trouble using the app.
+    A "Contact Us" modal in the footer would provide a better user experience, especially for people having trouble using the app.
+
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
@@ -123,7 +120,7 @@ Copyright free images taken from [Pxhere](https://pxhere.com/):
 * [Forest Group](https://pxhere.com/en/photo/1066279) (file name: forest.png)
 * [Dachshund](https://pxhere.com/en/photo/1029572) (file name: dasch2.png)
 * [Labrador](https://pxhere.com/en/photo/714482) (file name:lab.png)
-* [Dog in a scarf](https://pxhere.com/en/photo/832928) (fike name: dogscarf.png)
+* [Dog in a scarf](https://pxhere.com/en/photo/832928) (file name: dogscarf.png)
 * [Schnauzer](https://pxhere.com/en/photo/657538) (file name: schnauzer.png)
 * [Man in sunglasses](https://pxhere.com/en/photo/1432871) (file name: man2.png)
 * [Woman with leaf](https://pxhere.com/en/photo/1418706) (file name: woman1.png)
@@ -153,4 +150,5 @@ Images provided by myself:
 * Collapsible Navbar created from edited example from [Bootstrap](https://getbootstrap.com/docs/4.3/components/collapse/)
 * Carousel created from edited example from [Bootstrap](https://getbootstrap.com/docs/4.3/components/carousel/)
 * Media Object created from edited example from [Bootstrap](https://getbootstrap.com/docs/4.3/components/media-object/)
-* Lanscape breakpoints taken from [Responsivedesign.is](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
+* Responsive landscape breakpoints taken from [Responsivedesign.is](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
+* CSS prefixer used: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)

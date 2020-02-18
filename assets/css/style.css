@@ -37,7 +37,7 @@ a:hover {
 }
 
 .benefits {
-    background-color: #ffffffdc;
+    background-color:rgba(255, 255, 255, 0.85);
 }
 
 .f1 {
@@ -455,7 +455,7 @@ section > .benefits > div {
     top: 0;
     bottom: 0;
     margin: auto;
-    background-color: #ffffffb0;
+    background-color: rgba(255, 255, 255, 0.686);
     border-radius: 0.25rem;
     max-width: 75%;
     height: 500px;
