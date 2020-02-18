@@ -112,6 +112,8 @@ User stories have been used to shape the design of Walkee's website, below are t
 ## Testing
 ### Responsive Design Testing
 ### Code Validation
+* HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
+* CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 ### User Stories acheived
 ## Deployment
 ## Credits
