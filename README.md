@@ -142,16 +142,44 @@ This was fixed by using media queries to change the container div's (not includi
 #### As a user, I want the sign-in page to be easy to find, so I can quickly log in.
 * Every page has a distinctive login link in the navbar, you're never more than two clicks away from logging in.
 #### As Walkee's owner, I want people to easily and quickly download the app, to increase our membership.
-    * As stated earlier every user is only two click away from downloading the app.
-      * As an added benefit all Walkee download links and social links hover in the distinctive brand color #00ff67, increasing brand awareness.
+* As stated earlier every user is only two click away from downloading the app.
+    * As an added benefit all Walkee download links and social links hover in the distinctive brand color #00ff67, increasing brand awareness.
 #### As a user, I want the download links to be easy it find, so I can quickly download the app.
-    * It's clearly signposted where the download page is. The page has minimal media bringing you straight to the download links.
-      * Each page also includes download links in every footer in a central position
+* It's clearly signposted where the download page is. The page has minimal media bringing you straight to the download links.
+    * Each page also includes download links in every footer in a central position
 #### As a visitor to the site, I want a minimal signup form, so I can create an account quickly.
-    * The sign-up button brings a simple and easy to use modal so you can create an account quickly
+* The sign-up button brings a simple and easy to use modal so you can create an account quickly
 
 As an extra detail to increase Walkee's brand awareness the palette has been picked so that Walkee's neon green the only 'unnatural' color. Every other color has been sampled from nature photography.
 ## Deployment
+The Walkee site was created using GitPod with the git stored locally before being pushed to a remote repository on GitHub
+
+Here are the steps I used to publish a live version of the site:
+1. Go to the remote repository at [https://github.com/SDGreen/first-milestone-project-walkee](https://github.com/SDGreen/first-milestone-project-walkee) hosted by GitHub
+2. Click "Settings"
+3. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
+4. The site is now published at [https://sdgreen.github.io/first-milestone-project-walkee/index.html](https://sdgreen.github.io/first-milestone-project-walkee/index.html)
+
+### How to run Walkee's website code locally:
+1. Go to: [https://github.com/SDGreen/first-milestone-project-walkee](https://github.com/SDGreen/first-milestone-project-walkee)
+2. Click Clone or download.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the copy to clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy to clipboard icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 2 (https://github.com/SDGreen/first-milestone-project-walkee.git).
+```
+$ git clone https://github.com/SDGreen/first-milestone-project-walkee.git
+```
+7. Press Enter. Your local clone will be created.
+```
+$ https://github.com/SDGreen/first-milestone-project-walkee.git
+> Cloning into `some-name`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
 ## Credits
 ### Media
 Copyright free images taken from [Pxhere](https://pxhere.com/):
